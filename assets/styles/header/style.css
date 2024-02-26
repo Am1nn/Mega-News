@@ -1,0 +1,223 @@
+
+.header
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    width: 1512px;
+    align-items: center;
+    overflow: hidden;
+}
+/* Down Icon Css */
+header .navbar-icon
+{
+    margin-top: 4px;
+}
+
+header .menu-text
+{
+    font-weight: bold !important;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+header .menu-text:hover
+{
+    color: #FC4308 !important;
+}
+
+header .form-control
+{
+    background-color: transparent;
+    border: none;
+}
+
+header .form-control:focus
+{
+    outline: none !important;
+    /* Outline None Versemde Yenede etrafi goy olur o problemi aradan qaldira bilmedim */
+    background-color: transparent ;
+    
+}
+
+header .desktop-header{ 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header .tablet-header{
+    height: 0px;
+    visibility: hidden;
+}
+
+header .tablet-header .search-section{
+    visibility: hidden;
+    height: 0px;
+    margin-top: 20px;
+}
+
+header .left-header{
+    display: flex;
+    gap: 68px;
+}
+
+header .left-header .navbar-dt
+{
+    display: flex;
+}
+
+header .left-header .navbar-dt .hamburger-menu{
+    display: flex;
+    visibility: hidden;   
+    /* Detskopta olanda hidden olur */
+    width: 0px;
+    height: 0px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: #F5F5F5; 
+}
+
+header .left-header .navbar-2 .hamburger-menu i{
+    color: #3E3232;
+    font-family: "Font Awesome 6 Free";
+    font-size: 20px;
+    font-weight: 900;
+}
+
+header .left-header .logo-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FC4308;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+header .left-header .menu-text{
+    text-decoration: none;
+    text-wrap: nowrap;
+    color:#3E3232;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+header .left-header .navbar{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 34px;
+    margin-right: 70px;
+}
+
+header .left-header .navbar .menu-item{
+    display: flex;
+    gap: 2px;
+}
+
+header .left-header .navbar .menu-item img{
+    height: 16px;
+}
+
+header .right-header{
+    display: flex;
+}
+
+header .right-header .user-section{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
+header .right-header .user-section .slider{
+    height: 16px;
+}
+
+header .right-header .user-section .profile{
+    border-radius: 11px;
+    width: 48px;
+    height: 48px;
+}
+
+header .right-header .user-section .account-text{
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+header .right-header .bookmark-section img{
+    background-color: white;
+    width: 48px;
+    height: 48px;
+}
+
+header .search-section{
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 48px;
+    border-radius: 12px;
+    background: #F5F5F5;
+}
+
+header .search-section #ellipsis{
+    color: rgba(62, 50, 50, 0.75);
+    text-align: center;
+    font-family: "Font Awesome 6 Free";
+    font-size: 20px;
+    font-weight: 900;
+}
+
+header .search-section .search{
+    color: #3E3232;
+    text-align: center;
+    font-family: "Font Awesome 6 Free";
+    font-size: 20px;
+    font-weight: 900;
+}
+
+header .search-section .search-box{
+    width: 287px;
+}
+
+header .search-section .search-box input{
+    width: 280px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.title-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-section .rectangle{
+    width: 4px;
+    height: 10px;
+    border-radius: 12px;
+    background: #F81539;
+}
+
+.title-section .t1{
+    color: #3E3232;
+    font-family: Roboto;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}

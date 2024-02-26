@@ -1,0 +1,76 @@
+header{
+    width: 100% !important;
+    padding-left: 94px;
+    padding-right: 94px;
+    background: white;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
+    height: 190px;
+    z-index: 9;
+}
+
+header .desktop-header
+{
+    justify-content: center;
+    gap: 120px;
+}
+
+header .left-header{
+    width: 198px !important;
+}
+
+header .right-header .user-section{
+    width: 134px !important;
+}
+
+header .left-header .navbar-dt .hamburger-menu{
+    visibility: visible !important;
+    width: 48px !important;
+    height: 48px !important;
+    margin-right: 30px;
+}
+
+header .tablet-header{
+    visibility: visible !important;
+}
+
+header .tablet-header .search-section{
+    visibility: visible !important;
+    display: flex;
+    height: 48px !important;
+    width: 604px !important;
+    justify-content: space-between;
+    padding: 14px 16px !important;
+} 
+
+header .tablet-header .search-section .search-box{
+    width: 500px !important;
+}
+
+header .tablet-header .search-section .search-box input{
+    width: 500px !important;
+}
+
+header .left-header .navbar, .right-header .search-section, main .top-tags, main .top-news-section{
+    visibility: hidden !important;
+    width: 0px !important;
+    height: 0px !important;
+} 
+
+header .desktop-header .left-header .navbar-dt .hamburger-menu .btn-secondary
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 355px;
+}
+header .desktop-header .left-header .navbar-dt .hamburger-menu .barsbody .button1{
+    margin-left: 12px;
+}
+header .desktop-header .left-header .navbar-dt .hamburger-menu .barsbody{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+    

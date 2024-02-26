@@ -1,0 +1,25 @@
+
+main, main .latest-posts, main .posts-section, main .posts-section #post{
+    width: 358px;
+}
+
+main .posts-section #post{
+    gap: 0px;
+    flex-direction: column;
+    height: 385px;
+}
+
+main .posts-section img{
+    width: 338px;
+    height: 186px;
+    object-fit: cover;
+}
+
+main .posts-section .info{
+    width: 100%;
+    justify-content: space-between;
+}
+
+main .posts-section .right-section{
+    width: 338px;
+}

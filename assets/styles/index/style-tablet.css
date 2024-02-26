@@ -1,0 +1,85 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .popular-posts{
+    overflow: hidden;
+    width: 604px;
+}
+
+main .posts-section{
+    gap: 20px;
+}
+
+main .top-posts-section, .top-posts{    
+    overflow: hidden;
+    width: 604px !important;
+}
+
+main .trendy-posts-section, .trendy-posts{    
+    overflow: hidden;
+    width: 604px !important;
+}
+
+main .top-tags-tablet{
+    visibility: visible;
+    width: 604px;
+    height: 367px;
+}
+
+main .sports-widget #desktop, .video-posts-section{
+    visibility: hidden !important;
+    display: none !important;;
+    width: 0px;
+    height: 0px;
+}
+
+main .sports-widget #tablet{
+    width: 604px;
+}
+
+main .new-posts-section{
+    width: 604px !important;
+}
+
+main .new-posts-section .posts-section{
+    width: 604px !important;
+}
+
+main .latest-videos-section{
+    width: 100vh;
+    display: none;
+    visibility: hidden!important;
+}
+
+main .latest-videos-section .tablet img{
+    width: 604px;
+    height: 367px;
+}
+
+main .latest-videos-section .header-section{
+    width: 604px;
+}
+
+main .weather #desktop{
+    visibility: hidden !important;
+    height: 0px;
+    width: 0px;
+}
+
+main .weather #tablet{
+    width: 100vh !important;
+    visibility: visible !important;
+}
+
+main .new-posts-section .posts-section #post{
+    width: 604px;
+}
+
+main .new-posts-section .posts-section .left-section img{
+    width: 190px;
+    object-fit: cover;
+}

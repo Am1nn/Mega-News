@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.template-container
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+p
+{
+    margin: 0px !important;
+}
+
+body
+{
+    font-family: Roboto;
+    overflow-x: hidden;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+button
+{
+    border: 0px solid transparent;
+    border-radius: 12px;
+}
+
+main,
+ header, 
+ footer
+ {
+    overflow-x: hidden !important;
+    width: 100%;
+}

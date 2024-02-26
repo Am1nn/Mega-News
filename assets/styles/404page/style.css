@@ -1,0 +1,28 @@
+
+main .center{
+    margin-top: 215px;
+    margin-bottom: 170px;
+    gap: 30px;
+}
+
+main .center .error-number{
+    font-family: Roboto;
+    font-size: 192px;
+    font-weight: 500;
+    line-height: 225px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FC4308;
+    text-shadow: 2px 2px 44px #FC430859;
+}
+
+main .center .error-message{
+    font-family: Roboto;
+    font-weight: bold!important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #3E3232BF;
+}
